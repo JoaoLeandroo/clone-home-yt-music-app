@@ -33,7 +33,7 @@ export default function Header() {
 
             </div>
 
-            <div className='w-[10%] f-full flex items-center justify-center gap-5'>
+            <div className='w-[10%] f-full flex items-center justify-center gap-5 cursor-pointer'>
                 <LuMonitorSmartphone size={25} color='white'/>
                 <BiSolidUserCircle size={30} color='white'/>
             </div>
