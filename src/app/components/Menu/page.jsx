@@ -1,4 +1,4 @@
-import { AiFillHome } from 'react-icons/ai'
+import { AiFillHome, AiOutlinePlus } from 'react-icons/ai'
 import { MdExplore, MdLibraryMusic } from 'react-icons/md'
 
 export default function Menu() {
@@ -19,6 +19,14 @@ export default function Menu() {
                         <p className='text-white'>Biblioteca</p>
                     </li>
                 </ul>
+            </div>
+
+            <div className='w-full m-auto mt-6 border-t border-solid border-[#757575] p-3'>
+
+                <div className='p-2 w-full bg-slate-500 flex items-center justify-center gap-2 cursor-pointer rounded-lg hover:bg-slate-600'>
+                    <AiOutlinePlus size={30} color='white'/>
+                    <p className='text-white font-bold'>Nova Playlist</p>
+                </div>
             </div>
 
         </aside>
